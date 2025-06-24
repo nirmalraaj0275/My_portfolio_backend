@@ -4,6 +4,6 @@ import contactController from "../Controllers/messageController.js";
 
 const router = express.Router();
 
-router.post("/", contactController); // ✅ Correct path here
+router.post("/", contactController); 
 
 export default router;
